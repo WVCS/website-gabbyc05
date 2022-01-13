@@ -1,31 +1,34 @@
-<html>
-
-<head>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDcYKXcj74aQEWCXln4phRZYXCt4om_3zTnA&usqp=CAU">
-	<title> TAB TITLE </title>
-</head>
-  
-  <body>
-    <ul>
-      <li><a href="index.html"> Home </a></li>
-      <li><a href="https://www.powayusd.com/en-US/Schools/HS/WVHS/HOME"> Westview Home Page </a></li>
-      <li><a href="<iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/1nmchKOHiXMDhi9dDm99QUYfYC173F4rR_A3nojWvYR/embed?nosource"></iframe> My Apps </a></li>
-      <li><a href="index.html"> Web Portfolio </a></li>
-      <li><a href="https://gabbyjoycui.wixsite.com/webportfolio">
-    </ul>
-    <center>
-      <h1> Gabby's Website </h1>
-      <p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDcYKXcj74aQEWCXln4phRZYXCt4om_3zTnA&usqp=CAU">
-      <br>
-      <br>
-      <br> 
-    <center>
-      <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/1nmchKOHiXMDhi9dDm99QUYfYC173F4rR_A3nojWvYR/embed?nosource"></iframe>
-    </center>
-  
-
-
-
-</html>
+body {
+background-color:#a3bbad;  
+}
+h1{
+  color:#FFFFFF;
+  font-size: 300%;
+  letter-spacing: 5px;
+}
+ul{
+  list-style-type: none;
+  background-color: none;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-style: none;
+  font-family: cursive, "lucida handwriting";
+}
+li a:hover {
+  background-color: white;
+  color: black;
+}
